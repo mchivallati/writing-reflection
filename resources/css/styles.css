@@ -1,0 +1,42 @@
+body {
+
+    background: #FFF;
+
+}
+
+.welcome-box {
+
+    background: url(http://www.cavc.ac.uk/files/5313/8261/7333/english_class.png) #7788AA;
+    box-shadow: inset 0px 11px 8px -10px #191B21,
+                inset 0px -11px 8px -10px #191B21;
+    padding: 25px;
+    margin: 0px;
+
+}
+
+.footer {
+
+    background: #f8f8f8;
+    padding: 1%;
+    color: #222;
+    box-shadow: inset 0px 11px 8px -10px #AAA,
+                inset 0px -11px 8px -10px #AAA;
+    bottom: 0px;
+
+}
+
+/*.vertical-separator {
+
+    width: 1px;
+    border: 1px solid #CCC;
+
+}*/
+
+.description {
+
+    box-shadow: 11px 0px 8px -10px #AAA,
+                -11px 0px 8px -10px #AAA;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
+}
