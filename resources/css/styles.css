@@ -6,7 +6,7 @@ body {
 
 .welcome-box {
 
-    background: url(http://www.cavc.ac.uk/files/5313/8261/7333/english_class.png) #7788AA;
+    /*background: url(http://www.cavc.ac.uk/files/5313/8261/7333/english_class.png) #7788AA;*/
     box-shadow: inset 0px 11px 8px -10px #191B21,
                 inset 0px -11px 8px -10px #191B21;
     padding: 25px;
