@@ -53,3 +53,10 @@ div.description {
 p.description {
     text-indent: 8%;
 }
+
+.separator {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
