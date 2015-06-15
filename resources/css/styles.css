@@ -60,3 +60,14 @@ p.description {
   overflow: hidden;
   background-color: #e5e5e5;
 }
+
+.separator2 {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #AAA;
+}
+
+mark {
+    background-color: yellow;
+}
