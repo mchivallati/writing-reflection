@@ -131,12 +131,30 @@
 
 <div class="container-fluid description">
     <h2 id="narrative">Personal Narrative</h2>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    <div class="col-md-8 col-md-offset-2">
+        <p class="description">
+            I have always found solving problems enjoyable; from solving puzzles with family to computer programming. This past year I challenged myself and took the class AP Computer Science. I thrived in the class with little struggle. The concepts came easily to me and I would finish the assignments a week before they were due. However, recursion was the one topic I had difficulty with.  A standard mathematical definition of recursion is the process of defining a function or calculating a number by the repeated application of an algorithm. In computer science, recursion takes place with procedures or methods (think of these as a verb in a program, these elements do some action). When a method calls itself, it becomes recursive.
+        </p>
+        <h3>Example of a Recursive Method</h3>
+        <pre>
+	public static int <mark>sum(int n)</mark>
+	// returns the sum of all integers 1 + 2 + .... + n-1 + n
+	{
+
+		if ( n == 0 ) {
+			return n;
+		}
+		else {
+			return <mark>sum( n - 1 )</mark> + n;
+		}
+
+	}
+            <samp>If n = 3 the output is 6 | 1 + 2 + 3 = 6 </samp>
+        </pre>
+        <p class="description">
+            During this chapter, we had to create recursive methods and predict the output of recursive methods. I read the chapter and still did not fully grasp the topic. I was not alone, much of the class struggled with recursion also. Our teacher helped by working through problems on the front board, but still I did not fully grasp the chapter. The fact our class struggled with recursion is pretty ironic since recursion happens everyday in our lives. Trees, for example, have a recursive structure. A tree starts with a truck, then splits into two trunks, and so on. For our chapter assignment, we had to create recursive methods that modeled summation, the Fibonacci numbers, exponentiation, and others. I would work for an hour or two every night trying to understand the assignment and the recursion involved. I would test code until I got one part of the assignment correct, and then I would move on continuing the process. If you think about it, I was creating recursive methods while taking a recursive approach to the problem (trying some code and repeating the process if I did not achieve the desired output). It was painstaking, but after hours of working I finally came to a better understanding of the topic. I came away after doing the programming assignment with a profound new knowledge of the subject. I had solved the puzzle through hard work and focus, giving me great satisfaction. This proved to me through hard work and the motivation to succeed, you can accomplish taks you would not have guessed you could.
+        </p>
+    </div>
 </div>
 
 <!-- Footer -->
